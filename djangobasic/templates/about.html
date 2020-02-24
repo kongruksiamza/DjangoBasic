@@ -1,0 +1,27 @@
+{%extends 'layout.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+        <div class="card mt-4">
+            <img class="card-img-top img-fluid" src="{{product.image.url}}" alt="">
+            <div class="card-body">
+              <h3 class="card-title">{{product.name}}</h3>
+              <h4>{{product.price}}</h4>
+              <p class="card-text">{{product.description}}</p>
+              {% if product.stocks <= 0 %}
+              <p class="text-danger">สินค้าหมด</p>
+              {% else %}
+                    <a href="{% url 'add_cart' product.id %}" class="btn btn-danger">เพิ่มลงตะกร้า</a>
+              {% endif%}
+            </div>
+          </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock%}
