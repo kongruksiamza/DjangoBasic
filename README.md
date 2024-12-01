@@ -1,8 +1,3 @@
-## 🚀 Guideline & Documents
-- แนวทางการเรียนรู้การพัฒนาเว็บแอพพลิเคชั่น (Web Development) [อ่านบทความ](https://github.com/kongruksiamza/web-guideline)
-- แนวทางการเรียนรู้การเขียนโปรแกรมภาษา Python (Python Guideline) [อ่านบทความ](https://github.com/kongruksiamza/python-guideline)
-- เอกสารสอนเขียนโปรแกรมฟรี (.pdf) [ดาวน์โหลด](https://github.com/kongruksiamza/ebook-for-education)
-
 ## 🎓 คอร์สเรียนที่น่าสนใจ [![Udemy](https://img.shields.io/badge/Udemy-A435F0?logo=udemy&logoColor=fff)](https://www.udemy.com/user/kong-ruksiam/)
 - [พัฒนาเว็บด้วย Django Framework 4.x](https://www.udemy.com/course/django-framework-real-world-projects/?referralCode=63ED08A516BE8C4A93F7)
 - [พัฒนาระบบร้านค้าออนไลน์ด้วย Django Framework 4.x](https://www.udemy.com/course/django-framework-e-commerce/?referralCode=AFDB5F462F46815300C1)
